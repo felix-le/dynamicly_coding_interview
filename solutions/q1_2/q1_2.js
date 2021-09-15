@@ -34,7 +34,7 @@ const testArr = [
   { name: 'c', value: 6 },
 ];
 /**
- * Represent a sum of all elements in an array of objects in single line
+ *Represent a sum of all elements in an array of objects
  * @param {Array} items - an array of objects - {Object.<string, number>} - an object with the fields `name` (a String) and `value` (a Number)
  * @param {String} targetName - a name of the target object
  * @returns {Number} - the sum of all elements in the array
@@ -55,7 +55,7 @@ const resultSingleLine = sumAllElementsByNameSingleLine(testArr, 'a');
   it returns the average of the `value` fields for items where `name` matches `targetName`. 
 ********************** */
 /**
- *
+ * Represent an average an element in an array of objects
  * @param {Array} items
  * @param {string} targetName
  * @returns {Number} - the average of the `value` fields for items where `name` matches `targetName`.
