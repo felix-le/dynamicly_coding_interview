@@ -68,7 +68,6 @@ async function testQuestion4() {
 
     const aIsOK = aResult === 'THE RESULT IS: this test is fun';
     const bIsOK = bResult === 'THE RESULT IS: [this-test-is-fun]';
-    console.log(aIsOK, bIsOK);
     return aIsOK && bIsOK;
   } catch (error) {
     console.log('🚀 ~ file: q_4.js ~ line 56 ~ testQuestion4 ~ error', error);
