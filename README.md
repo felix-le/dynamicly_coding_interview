@@ -49,3 +49,9 @@ p2.distance; //undefined
 
 console.log(Point.distance(p1, p2)); // 7.0710678118654755
 ```
+
+Question 5:
+
+I haven't used the RxJS library and Observable before. So, I'm not sure that I fully understand the question. However, I think that I can use the following code to solve the question.
+
+Thank you for giving me a chance to know more about RxJS and Observable.
