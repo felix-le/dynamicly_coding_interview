@@ -52,6 +52,4 @@ console.log(Point.distance(p1, p2)); // 7.0710678118654755
 
 Question 5:
 
-I haven't used the RxJS library and Observable before. So, I'm not sure that I fully understand the question. However, I think that I can use the following code to solve the question.
-
-Thank you for giving me a chance to know more about RxJS and Observable.
+I have not used RxJS for coding before, so, I am not sure that my answer is correct. However, I tried to follow step by step from finding out its affect, then its cause and solution. I hope you would enjoy my answer. Thank you for giving me a reason to learn RxJS and understand more about observables, observer and subscription.
