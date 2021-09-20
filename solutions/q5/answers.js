@@ -143,7 +143,7 @@ const makeRequest$ = (action$, state$) =>
  * 4. epics => epics is a function that takes the action stream and the state stream and returns a stream of actions.
  *
  * II. the flow:
- *  user clicks on the button on the component >> the makeRequest action in store is active with the id of the item (A) >> the makeRequest$ function is active >> the ajax request is active >> the response is mapped to the makeRequestSuccess action in store >> the makeRequestSuccess action is active >> the getAllTree function is active >> the getAllTree function is active >> the makeRequestSuccess action is active >> the store is updated with the data.
+ *  user clicks on the button on the component >> the makeRequest action in store is active with the id of the item (A) >> the makeRequest$ function is active >> the ajax request is active >> the response is mapped to the makeRequestSuccess action in store >> the makeRequestSuccess action is active >> the makeRequestSuccess action is active >> the store is updated with the data.
  */
 
 const epics = combineEpics(makeRequest$);
